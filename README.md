@@ -3,8 +3,7 @@ Download the source code below and add it to your website!
 
 ## Create a new Numpad
 
-```
-<numpad id="numpad" onsubmit="console.log('submitted!')" allowTypeIn="true" max="5"></numpad>```
+```<numpad id="numpad" onsubmit="console.log('submitted!')" allowTypeIn="true" max="5"></numpad>```
 
 ## Numpad Options
 
@@ -19,4 +18,4 @@ Download the source code below and add it to your website!
 Use getAttribute('value')
 
 ### Example:
-`console.log(document.getElementById('numpad').getAttribute('value'))`
+```console.log(document.getElementById('numpad').getAttribute('value'))```
